@@ -1,0 +1,62 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <h1 id="title"> survey form</h1>
+    <p id="description"> google analytics survey</p>
+    <form id="survey-form"> 
+        <div class="form-group">
+            <label id="name-label" for="name"> Name:</label>
+                <input id="name" type="text" required placeholder="enter you name">
+                <span class="validity"></span>
+             </div>
+             <div class="form-group">
+                 <label id="email-label" for="email"> Email</label>
+                 <input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required 
+                 placeholder="enter your email">
+                 <span class="validity"></span>
+             </div>
+             <div class="form-group">
+                 <label id="number-label" for="number">Age</label>
+                 <input id="number" type="number" min="10"  max="100" step="1" required
+                 placeholder="age">
+                 <span class="validity"></span>
+             </div>
+             <div class="form-group">
+                 <label id="role-down" for="dropdown"> role</label>
+                 <select id="dropdown" name="current-role">
+                     <option value="student"> student</option>
+                     <option value="youtuber">youtuber</option>
+                     <option value="instagramer"> instagramer</option>
+                     <option value="medical">  medical</option>
+                     <option value="enginnering"> enginnering</option>
+                 </select>
+             </div>
+             <div class="form-group">
+                 <p> would you recommed googel anaytics to friend</p>
+                 <label for="yes">  <input id="yes"  type="radio" 
+                name="user-rating" value="yes" checked> yes</label> 
+                <label for="no"> <input id="no" type="radio"
+                name="user-rating" value="no" >No</label>
+                <label for="not-sure"> <input id="not-sure" type="radio"
+               name="user-rating" value="not-sure"> Not sure</label>
+             </div>
+             <div class="form-group">
+                 <p> which language you prefer to study</p>
+                 <label> <input type="checkbox"    name="language"
+                 value="java">java</label>
+                 <label> <input type="checkbox"  name="language"
+                    value="javascript">javascript</label>
+                    <label> <input type="checkbox" name="language"
+                        value="phython">phython</label>
+             </div>
+             <div class="form-group">
+                 <label id="textarea" for="comments">comments and suggetion</label>
+                 <textarea id="comments" placeholder="enter the comment" cols="30"
+                 rows="6"></textarea>
+             </div>
+             <div class="form-group">
+                 <input id="submit" class="button" type="submit" value="submit">
+             </div>
+    </form>
+</html>

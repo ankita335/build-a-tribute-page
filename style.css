@@ -1,0 +1,35 @@
+html{
+  background: black;
+}
+#main{
+  color: white;
+  background:black;
+  text-align: center;
+  font-display: 'Patrick Hand';
+  margin: 35px;
+  font-size: 15px;
+  padding: 30px;
+
+}
+#title{
+  background: black;
+  font-size: 10px;
+  padding-top: 16px;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  display: block;
+}
+#image-caption{
+  font-size: 15px;
+}
+#tribute-info{
+  text-align: left;
+  padding-bottom: 30px;
+}
+#tribute-link{
+  color:yellow;
+}

@@ -1,0 +1,57 @@
+body{
+    margin:0;
+  }
+  #navbar{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px;
+    
+  }
+  #navbar a{
+    text-decoration: none;
+    color: black;
+    width:inherit;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px;
+    background-color: skyblue;
+  }
+  main{
+    display: grid;
+    grid-template-rows: 200px auto 300px 100px;
+  }
+  #welcome-section{
+    text-align: center;
+    background-color: grey;
+  }
+  #projects{
+    text-align: center;
+    background-color: white;
+  }
+  #profile{
+    text-align: center;
+  background: lightgrey;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  }
+  .circle{
+    background: grey;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  }
+  #copy-right{
+    text-align: center;
+    background-color: lightblue;
+    padding: 22px;
+  }
